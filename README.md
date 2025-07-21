@@ -15,6 +15,7 @@ This folder contains the **HTML source code files** of article pages from the OR
 This folder contains two Jupyter Notebook files:
 - `ORE_get.ipynb`: A scraping and extraction script that parses the HTML files from `pages2/` and gathers metadata such as authorship, peer review information, and article types.
 - `ORE_analyse.ipynb`: A data analysis script that processes the metadata collected by the get script and conducts descriptive analysis on article structure, disciplines, country distribution, and peer review.
+- `ORE_analyse_English.ipynb`: the English translation version of the file `ORE_analyse.ipynb`.
 
 ### 3. `result/csv/`
 This folder contains the **cleaned metadata results** extracted using `ORE_get.ipynb`, saved in `.csv` format. These datasets serve as the input for the analysis notebook. The visual and statistical outputs from the analysis are saved directly within the `ORE_analyse.ipynb` notebook, primarily in **Chinese language**.
